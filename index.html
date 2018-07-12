@@ -16,7 +16,8 @@ sitemap:
 -->
 <html>
 	<head>
-    {% include head.html %}
+		{% include head.html %}
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
 	</head>
@@ -27,7 +28,7 @@ sitemap:
 
 				<!-- Intro -->
 					<div id="intro">
-						<img src="images/logos/uwpx_1500x1500.png" width="10%" height="10%">
+						<img src="{{ "images/logos/uwpx_1500x1500.png" | absolute_url }}" width="10%" height="10%">
             <h1>{{site.title}}</h1>
 						<h2>THE XMPP APP FOR YOUR UWP DEVICES</h2>
 						<p>UWPX is a secure and Open Source XMPP app for all your UWP (Windows 10) devices<br />
@@ -47,7 +48,6 @@ sitemap:
 					<nav id="nav">
 
             {% include nav.html %}
-
 						<ul class="icons">
               <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
 						</ul>
@@ -63,8 +63,63 @@ sitemap:
                     nearly out of the box. Of course... you can always take it further <br />
                     and make it something even more amazing!</p>
 								</header>
-								<p><span class="image left"><img src="{{ "/images/pic02.jpg" | absolute_url }}" alt="" /></span>In both layman and nerd-speak, this is a paragraph. This is a paragraph that goes on the right side of an image. This is the text that goes under the heading and the subtitle. Paragraphs vary in length but in school we're taught to make them at least 7 sentences or else we risk getting a C. Since the paragraph didn't have a thesis or a closing argument, it's probably a C grade paragraph.</p>
-								<p><span class="image right"><img src="{{ "/images/pic03.jpg" | absolute_url }}" alt="" /></span>In both layman and nerd-speak, this is a paragraph. This is a paragraph that goes on the right side of an image. This is the text that goes under the heading and the subtitle. Paragraphs vary in length but in school we're taught to make them at least 7 sentences or else we risk getting a C. Since the paragraph didn't have a thesis or a closing argument, it's probably a C grade paragraph.</p>
+
+								<table>
+										<tr>
+												<td>
+													<p>
+														<span class="image left"><img src="{{ "images/logos/uwpx_cut_1322x1228.png" | absolute_url }}"/></span>
+														General description.
+														<div align="center" id="msStoreBadge">
+															<a class="icon" align="right" href='//www.microsoft.com/store/apps/9nw16x9jb5wv?ocid=badge'><img src='https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png' alt='English badge' width="20%" height="auto"/></a>
+														</div>
+													</p>
+												</td>
+											</tr>
+											<tr>
+													<td>
+															<p>
+																<span class="image right"><img src="{{ "/images/openSource.png" | absolute_url }}" /></span>
+																Open Source.
+															</p>
+														</p>
+													</td>
+												</tr>
+												<tr>
+														<td>
+															<p>
+																<span class="image left"><img src="{{ "images/lock.jpg" | absolute_url }}"/></span>
+																Security description.
+															</p>
+														</td>
+												</tr>
+												<tr>
+														<td>
+																<p>
+																	<span class="image right"><img src="{{ "/images/placeholder.jpg" | absolute_url }}" /></span>
+																	MUC.
+																</p>
+															</p>
+														</td>
+													</tr>
+													<tr>
+															<td>
+																<p>
+																	<span class="image left"><img src="{{ "images/placeholder.jpg" | absolute_url }}"/></span>
+																	Receive images.
+																</p>
+															</td>
+													</tr>
+													<tr>
+															<td>
+																	<p>
+																		<span class="image right"><img src="{{ "/images/placeholder.jpg" | absolute_url }}" /></span>
+																		Countless XEPs supported.
+																	</p>
+																</p>
+															</td>
+														</tr>
+									</table>
 
 							</article>
 
@@ -94,14 +149,6 @@ sitemap:
                 {% endfor %}
 
 							</section>
-
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-                </ul>
-							</footer>
-
 					</div>
 
 				<!-- Footer -->
@@ -109,9 +156,8 @@ sitemap:
 
 			</div>
 
-		<!-- Scripts
+		<!-- Scripts -->
 		{% include scripts-main.html %}
-    {% include tracking.html %}
-		-->
+		
 	</body>
 </html>
