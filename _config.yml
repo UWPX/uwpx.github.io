@@ -5,6 +5,9 @@ description:        "A secure XMPP client app for all your UWP (Windows 10) devi
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "uwpx.org" # the base hostname & protocol for your site
+mail: "support@uwpx.org"
+xmpp: "com8@xmpp.uwpx.org"
+coppyright: "2018 Fabian Sauter"
 
 defaults:
 - scope:
