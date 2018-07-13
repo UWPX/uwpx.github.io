@@ -15,149 +15,189 @@ sitemap:
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		{% include head.html %}
-		<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<head>
+	{% include head.html %}
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
-	</head>
-	<body class="is-loading">
+</head>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<body class="is-loading">
 
-				<!-- Intro -->
-					<div id="intro">
-						<img src="{{ "images/logos/uwpx_1500x1500.png" | absolute_url }}" width="10%" height="10%">
-            <h1>{{site.title}}</h1>
-						<h2>THE XMPP APP FOR YOUR UWP DEVICES</h2>
-						<p>UWPX is a secure and Open Source XMPP app for all your UWP (Windows 10) devices<br />
-							created and managed by <a href="https://github.com/COM8">COM8</a>. Licensed under the <a href="https://github.com/UWPX/UWPX-Client/blob/master/LICENSE">Mozilla Public License 2.0</a>.
-						</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+		<!-- Intro -->
+		<div id="intro">
+			<img src="{{ "/images/logos/uwpx_1500x1500.png" | absolute_url }}" width="10%" height="10%">
+			<h1>{{site.title}}</h1>
+			<h2>THE XMPP APP FOR YOUR UWP DEVICES</h2>
+			<p>
+				UWPX is a secure and Open Source XMPP app for all your UWP (Windows 10) devices
+				<br /> created and managed by
+				<a href="https://github.com/COM8">COM8</a>. Licensed under
+				<a href="https://github.com/UWPX/UWPX-Client/blob/master/LICENSE">Mozilla Public License 2.0</a>.
+			</p>
+			<ul class="actions">
+				<li>
+					<a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- Header -->
+		<header id="h/eader">
+			<a href="{{ " / " | absolute_url }}" class="logo">{{site.title}}</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+
+			{% include nav.html %}
+			<ul class="icons">
+				<li>
+					<a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow">
+						<span class="label">GitHub</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2>
+						<a href="#">UWPX the Open Source XMPP app for your UWP devices</a>
+					</h2>
+					<p>With only a few edits, you can have a stunningly beautiful website
+						<br/> nearly out of the box. Of course... you can always take it further
+						<br/> and make it something even more amazing!</p>
+				</header>
+
+				<table>
+					<tr>
+						<td>
+							<p>
+								<span class="image left">
+									<img src="{{ "images/logos/uwpx_cut_1322x1228.png" | absolute_url }}"/>
+								</span>
+								UWPX is a app for your UWP (Windows 10) devices. It implements the E<strong>x</strong>tensible <strong>M</strong>essaging and <strong>P</strong>resence <strong>P</strong>rotocol (<a href="https://xmpp.org">XMPP</a>).
+								<br/> <a href="">Here</a> your find an up to date list of all supported features and implemented XEPs.
+								<div align="right" id="msStoreBadge">
+									<a class="icon" href='//www.microsoft.com/store/apps/9nw16x9jb5wv?ocid=badge'>
+										<img src='https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png' alt='English badge' width="15%" height="auto" />
+									</a>
+								</div>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>
+								<span class="image right">
+									<img src="{{ "/images/openSource.png" | absolute_url }}" />
+								</span>
+								UWPX is completely Open Source.
+								It's licesed under <a href="https://github.com/UWPX/UWPX-Client/blob/master/LICENSE">Mozilla Public License 2.0</a>.
+								Feel free to clone, change and submit features and bug fixes - there are always bugs waiting to be fixed.
+							</p>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>
+								<span class="image left">
+									<img src="{{ "/images/lock.jpg" | absolute_url }}"/>
+								</span>
+								By default every connection between you and your server is encrypted via TLS 1.2.
+								This prevents attackers from reading your chat messages or metadata.
+								<br/> <a href="https://de.wikipedia.org/wiki/OMEMO">OMEMO</a>:
+								<br/> OMEMO support is actively beeing worked on.
+								<a href="https://github.com/UWPX/UWPX-Client/issues/5">Here</a> you can find more up to date information about the current OMEMO implementation state.
+								Once implemented, OMEMO will provide a multi-client end-to-end encryption so not even your own server can read your chat messages any more.
+
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>
+								<span class="image right">
+									<img src="{{ "/images/placeholder.jpg" | absolute_url }}" />
+								</span>
+								You are not limited to normal chats with only one recipient.
+								UWPX supports <a href="https://xmpp.org/extensions/xep-0045.html">XEP-0045: Multi-User Chat (MUC)</a>.
+								Just click <i>"Add Group Chat (MUC)"</i>, enter the room name and voila you created a new or joind an existing MUC.
+								<br/> Still not enough?
+								<br/> You even can manage your rooms - change the room name, kick/ban members, set a password, ...
+							</p>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>
+								<span class="image left">
+									<img src="{{ "/images/placeholder.jpg" | absolute_url }}"/>
+								</span>
+								There comes the point where text alone is not enough.
+								You need something more meaningful - like an image.
+								<br/> No problem we got you!
+								<br/> Just grab a link of an image send it and UWPX will do the rest for you.
+								<br/> UWPX supports from <a href="https://xmpp.org/extensions/xep-0363.html">XEP-0363: HTTP File Upload</a> at the moment only the receiving portion. There's more to come!
+							</p>
+						</td>
+					</tr>
+				</table>
+
+			</article>
+
+			<!-- Posts -->
+			<section class="posts">
+				{% for post in site.posts limit:3 %} {% assign mod3 = forloop.index | modulo: 3 %}
+				<article>
+					<header>
+						<span class="date">{{ post.date | date_to_string }}</span>
+						<h2>
+							<a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+						</h2>
+					</header>
+					<a href="{{ post.url | absolute_url }}" class="image fit">
+						<img src="{{ post.image | absolute_url }}" alt="" />
+					</a>
+					<p>{{ post.excerpt }}</p>
+					<ul class="actions">
+						<li>
+							<a href="{{ post.url | absolute_url }}" class="button">Full Story</a>
+						</li>
+					</ul>
+				</article>
+				{% if mod3 == 0 %}
+				<article>
+					<header>
+						<h2>
+							<a href="#">Sponsored</a>/
+						</h2>
 					</header>
 
-				<!-- Nav -->
-					<nav id="nav">
+				</article>
+				{% endif %} {% endfor %}
 
-            {% include nav.html %}
-						<ul class="icons">
-              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+			</section>
+		</div>
 
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">UWPX the Open Source XMPP app for your UWP devices</a></h2>
-									<p>With only a few edits, you can have a stunningly beautiful website <br />
-                    nearly out of the box. Of course... you can always take it further <br />
-                    and make it something even more amazing!</p>
-								</header>
+		<!-- Footer -->
+		{% include foot.html %}
 
-								<table>
-										<tr>
-												<td>
-													<p>
-														<span class="image left"><img src="{{ "images/logos/uwpx_cut_1322x1228.png" | absolute_url }}"/></span>
-														General description.
-														<div align="center" id="msStoreBadge">
-															<a class="icon" align="right" href='//www.microsoft.com/store/apps/9nw16x9jb5wv?ocid=badge'><img src='https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png' alt='English badge' width="20%" height="auto"/></a>
-														</div>
-													</p>
-												</td>
-											</tr>
-											<tr>
-													<td>
-															<p>
-																<span class="image right"><img src="{{ "/images/openSource.png" | absolute_url }}" /></span>
-																Open Source.
-															</p>
-														</p>
-													</td>
-												</tr>
-												<tr>
-														<td>
-															<p>
-																<span class="image left"><img src="{{ "images/lock.jpg" | absolute_url }}"/></span>
-																Security description.
-															</p>
-														</td>
-												</tr>
-												<tr>
-														<td>
-																<p>
-																	<span class="image right"><img src="{{ "/images/placeholder.jpg" | absolute_url }}" /></span>
-																	MUC.
-																</p>
-															</p>
-														</td>
-													</tr>
-													<tr>
-															<td>
-																<p>
-																	<span class="image left"><img src="{{ "images/placeholder.jpg" | absolute_url }}"/></span>
-																	Receive images.
-																</p>
-															</td>
-													</tr>
-													<tr>
-															<td>
-																	<p>
-																		<span class="image right"><img src="{{ "/images/placeholder.jpg" | absolute_url }}" /></span>
-																		Countless XEPs supported.
-																	</p>
-																</p>
-															</td>
-														</tr>
-									</table>
+	</div>
 
-							</article>
+	<!-- Scripts -->
+	{% include scripts-main.html %}
 
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</a></h2>
-  									</header>
+</body>
 
-  								</article>
-                  {% endif %}
-                {% endfor %}
-
-							</section>
-					</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
-
-			</div>
-
-		<!-- Scripts -->
-		{% include scripts-main.html %}
-		
-	</body>
-</html>
+</html>//

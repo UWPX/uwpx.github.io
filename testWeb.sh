@@ -1,1 +1,1 @@
-bundle update && bundle exec kyll serve
+bundle update && bundle exec jekyll serve
