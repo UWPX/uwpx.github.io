@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Need Help?
+title: UWPX - Need Help?
 description: All support related topics for UWPX
 sitemap:
     priority: 1.0
-    lastmod: 2018-07-14
+    lastmod: 2018-08-01
     changefreq: monthly
 ---
 ## Where do I get UWPX from and how do I install it?
