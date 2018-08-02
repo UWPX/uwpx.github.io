@@ -8,4 +8,4 @@ sitemap:
     changefreq: monthly
 ---
 ## License
-This Site is licensed under [Creative Commons Attribution 3.0]() and based on the [Jekyll Massively](https://github.com/iwiedenm/jekyll-theme-massively-src) theme from [iwiedenm](https://github.com/iwiedenm).
+This Site is licensed under [Creative Commons Attribution 3.0](https://github.com/UWPX/uwpx.github.io/blob/master/LICENSE.md) and based on the [Jekyll Massively](https://github.com/iwiedenm/jekyll-theme-massively-src) theme from [iwiedenm](https://github.com/iwiedenm).
