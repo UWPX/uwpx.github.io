@@ -3,7 +3,7 @@ title:              UWPX
 bio:                'A secure XMPP client app for all your UWP (Windows 10) devices.'
 description:        "A secure XMPP client app for all your UWP (Windows 10) devices."
 locale:             en_US
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "uwpx.github.io" # the base hostname & protocol for your site
 mail: "support@uwpx.org"
 xmpp: "com8@xmpp.uwpx.org"
