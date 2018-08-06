@@ -1,47 +1,46 @@
 # Site
-title:              UWPX
-bio:                'A secure XMPP client app for all your UWP (Windows 10) devices.'
+title:              "UWPX"
+bio:                "A secure XMPP client app for all your UWP (Windows 10) devices."
 description:        "A secure XMPP client app for all your UWP (Windows 10) devices."
 locale:             en_US
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "uwpx.github.io" # the base hostname & protocol for your site
-mail: "support@uwpx.org"
-xmpp: "com8@xmpp.uwpx.org"
-coppyright: "2018 Fabian Sauter"
+baseurl:            "" # the subpath of your site, e.g. /blog
+url:                "https://uwpx.github.io" # the base hostname & protocol for your site
+mail:               "support@uwpx.org"
+xmpp:               "com8@xmpp.uwpx.org"
+coppyright:         "2018 Fabian Sauter"
 
 defaults:
 - scope:
-    path: ''
-    type: posts
+    path:           ""
+    type:           "posts"
   values:
-    permalink: "/blog/:title/"
-    layout: post
-    author:
+    permalink:      "/blog/:title/"
+    layout:         "post"
+    author:         "Fabian Sauter"
 
 # Jekyll
 permalink:          /blog/:title/
-markdown:           kramdown
-highlighter:        rouge
+markdown:           "kramdown"
+highlighter:        "rouge"
 kramdown:
   auto_ids:         true
   footnote_nr:      1
-  entity_output:    as_char
+  entity_output:    "as_char"
   toc_levels:       1..6
   enable_coderay:   false
 mathjax:            true
 sass:
   sass_dir:         _sass
-  style:            compressed
+  style:            "compressed"
 
 # Comments
-disqus_shortname:   default
+disqus_shortname:   "default"
 
 # Social
-analytics-id:       "default"
-github:             UWPX/UWPX-Client
+github:             "UWPX/UWPX-Client"
 
 # personal          
-email:              support@uwpx.org
+email:              "support@uwpx.org"
 
 # Gems
 gems:
@@ -52,10 +51,10 @@ gems:
   - jekyll-paginate
 
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path:      "/blog/page:num/"
 
 jekyll-mentions:
-    base_url: https://uwpx.github.io
+    base_url:       "https://uwpx.github.io"
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
