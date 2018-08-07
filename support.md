@@ -21,7 +21,7 @@ There are two ways how you can get UWP:
 [Here](https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development) you can find more information about: How to install UWP apps, using the developer mode.
 
 ## What kind of account do I need?
-As with e-mail, you'll need an account with a service provider.
+Because XMPP is like email a federated protocol (=> there are no "__official__" XMPP accounts), everybody can host his own server providing XMPP accounts.
 
 ## Where can I get a account from?
 Because XMPP is like email a federated protocol there are two ways of obtaining an XMPP (Jabber) account:
@@ -30,7 +30,7 @@ Because XMPP is like email a federated protocol there are two ways of obtaining 
     - [jabber.ru](https://www.jabber.ru/register)
     - [jabber.de](https://www.jabber.de/anmeldung/)
     - [jabber.at](https://jabber.at/account/register/)
-- You also can just host your own [server](https://xmpp.org/software/servers.html).
+- You also can host your own [server](https://xmpp.org/software/servers.html).
 - Some email providers also provide you with an XMPP account:
     - [mailbox.org](https://userforum.mailbox.org/knowledge-base/article/was-ist-jabber-xmpp)
     - [dismail](https://dismail.de/)
