@@ -36,3 +36,9 @@ Because XMPP is like email a federated protocol there are two ways of obtaining 
     - [mailbox.org](https://userforum.mailbox.org/knowledge-base/article/was-ist-jabber-xmpp)
     - [dismail](https://dismail.de/)
     - [mail.de](https://mail.de/hilfe/chat-jabber-einstellungen)
+
+## Which devices are supported?
+In theory **all UWP devices** that run an Windows 10 build >= `10.0.15063.0` are able to run UWPX.
+But because I'm only able to test it on a Windows Phone and a Windows PC these are the only devices the official [Microsoft Store](https://www.microsoft.com/store/apps/9nw16x9jb5wv?ocid=badge) build will run on.
+
+If there are additional devices you tested UWPX on that are able to run UWPX without any problems, let me know and I will add them to the list.
