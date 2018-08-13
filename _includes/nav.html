@@ -1,6 +1,8 @@
 <ul class="links">
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
+  {% if site.enableBlog == "1" %}
   <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blog</a></li>
+  {% endif %}
   <li class="{% if page.url contains '/development/' %} active {% endif %}"><a href="{{ "/development/" | absolute_url }}">/Dev</a></li>
   <li class="{% if page.url contains '/donate/' %} active {% endif %}"><a href="{{ "/donate/" | absolute_url }}">Donate</a></li>
   <li class="{% if page.url contains '/support/' %} active {% endif %}"><a href="{{ "/support/" | absolute_url }}">Support</a></li>

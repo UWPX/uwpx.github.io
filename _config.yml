@@ -8,6 +8,7 @@ url:                "https://uwpx.org" # the base hostname & protocol for your s
 mail:               "support@uwpx.org"
 xmpp:               "com8@xmpp.uwpx.org"
 coppyright:         "2018 Fabian Sauter"
+enableBlog:         "0"
 
 defaults:
 - scope:
@@ -43,7 +44,7 @@ github:             "UWPX/UWPX-Client"
 email:              "support@uwpx.org"
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed

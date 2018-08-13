@@ -169,6 +169,7 @@ sitemap:
 			</article>
 
 			<!-- Posts -->
+			{% if site.enableBlog == "1" %}
 			<section class="posts">
 				{% for post in site.posts limit:3 %} {% assign mod3 = forloop.index | modulo: 3 %}
 				<article>
@@ -200,6 +201,7 @@ sitemap:
 				{% endif %} {% endfor %}
 
 			</section>
+			{% endif %}
 		</div>
 
 		<!-- Footer -->
