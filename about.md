@@ -17,6 +17,7 @@ This project wouldn't be possible without the great work of all those people wor
 * [**HockeySDK for Windows**](https://github.com/bitstadium/HockeySDK-Windows) Allows me to collect crash reports ([UWPX Privacy Policy](https://github.com/UWPX/UWPX-Client/blob/master/PRIVACY_POLICY.md#crash-reporting)).
 * [**libsignal-protocol-pcl**](https://github.com/langboost/libsignal-protocol-pcl) A port of the [libsignal-protocol-java](https://github.com/signalapp/libsignal-protocol-java) library for C# UWP.
 * [**SQLite-net**](https://github.com/praeclarum/sqlite-net) The backend for storing all messages, chats and accounts.
+* [**openluopworld**](https://github.com/openluopworld) He has done an awesome and simple to use [AES-GCM](https://github.com/openluopworld/aes_gcm) implementation written in C.
 * [**PEXELS**](https://www.pexels.com/) An awesome location for photos that can be used free for personal and commercial purposes ([License](https://www.pexels.com/photo-license/)).
 * [**KingKili**](https://github.com/KingKili) For introducing me to XMPP and pushing me to make my own app. He also started the work on the [UWPX-Push-Server](https://github.com/UWPX/UWPX-Push-Server).
 
