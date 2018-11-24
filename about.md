@@ -10,17 +10,26 @@ sitemap:
 ## Special thanks to
 This project wouldn't be possible without the great work of all those people working on the libraries used by UWPX. So take a second, head over and take a look at their great work!
 
+### UI:
 * [**Windows Community Toolkit**](https://github.com/Microsoft/WindowsCommunityToolkit) They provide an awesome collection of helper functions, custom controls and app services.
+* [**Microsoft.UI.Xaml**](https://github.com/Microsoft/microsoft-ui-xaml) Provides backward-compatible implementations of the default Microsoft UWP XAML UI platform for Windows 10.
+* [**Progress Telerik UI for UWP**](https://github.com/telerik/UI-For-UWP)  An open-source version of Telerik UI for Universal Windows Platform (UWP) by [Progress](https://www.progress.com/).
+
+### Code:
 * [**QRCoder**](https://github.com/codebude/QRCoder) An awesome QR-Code library.
-* [**Progress Telerik UI for UWP**](https://github.com/telerik/UI-For-UWP) A collection of advanced custom controls.
-* [**App Center Crashes/Push**](https://github.com/Microsoft/AppCenter-SDK-DotNet) Allows me to collect crash reports ([UWPX Privacy Policy](https://github.com/UWPX/UWPX-Client/blob/master/PRIVACY_POLICY.md#crash-reporting)).
-* [**HockeySDK for Windows**](https://github.com/bitstadium/HockeySDK-Windows) Allows me to collect crash reports ([UWPX Privacy Policy](https://github.com/UWPX/UWPX-Client/blob/master/PRIVACY_POLICY.md#crash-reporting)).
+* [**App Center Crashes/Push/Analytics**](https://github.com/Microsoft/AppCenter-SDK-DotNet) Allows me to collect crash reports ([UWPX Privacy Policy](https://github.com/UWPX/UWPX-Client/blob/master/PRIVACY_POLICY.md#crash-reporting)).
 * [**libsignal-protocol-pcl**](https://github.com/langboost/libsignal-protocol-pcl) A port of the [libsignal-protocol-java](https://github.com/signalapp/libsignal-protocol-java) library for C# UWP.
-* [**SQLite-net**](https://github.com/praeclarum/sqlite-net) The backend for storing all messages, chats and accounts.
+* [**sqlite-net-pcl**](https://github.com/praeclarum/sqlite-net) The backend for storing all messages, chats and accounts.
 * [**openluopworld**](https://github.com/openluopworld) He has done an awesome and simple to use [AES-GCM](https://github.com/openluopworld/aes_gcm) implementation written in C.
 * [**NLog**](https://github.com/NLog/NLog) The library for logging used by UWPX.
-* [**PEXELS**](https://www.pexels.com/) An awesome location for photos that can be used free for personal and commercial purposes ([License](https://www.pexels.com/photo-license/)).
+* [**Unicode.net**](https://github.com/neosmart/unicode.net) An super easy and powerful emoji and text-processing library for .NET.
+* [**ZXing.Net**](https://github.com/micjahn/ZXing.Net/)  A library which supports decoding and generating of barcodes (like QR Code, PDF 417, EAN, UPC, Aztec, Data Matrix, Codabar) within images.
+
+### People:
 * [**KingKili**](https://github.com/KingKili) For introducing me to XMPP and pushing me to make my own app. He also started the work on the [UWPX-Push-Server](https://github.com/UWPX/UWPX-Push-Server).
+
+### Misc:
+* [**PEXELS**](https://www.pexels.com/) An awesome location for photos that can be used free for personal and commercial purposes ([License](https://www.pexels.com/photo-license/)).
 
 Also special thanks to all the Alpha (and hopefully soon Beta) testers that reported bugs, made suggestions, supported the development with [donations]({{ "/support/" | absolute_url }}) or just used and tested the app ❤️.
 
