@@ -11,17 +11,17 @@ sitemap:
 This project wouldn't be possible without the great work of all those people working on the libraries used by UWPX. So take a second, head over and take a look at their great work!
 
 ### UI:
-* [**Windows Community Toolkit**](https://github.com/Microsoft/WindowsCommunityToolkit) They provide an awesome collection of helper functions, custom controls and app services.
 * [**Microsoft.UI.Xaml**](https://github.com/Microsoft/microsoft-ui-xaml) Provides backward-compatible implementations of the default Microsoft UWP XAML UI platform for Windows 10.
 * [**Progress Telerik UI for UWP**](https://github.com/telerik/UI-For-UWP)  An open-source version of Telerik UI for Universal Windows Platform (UWP) by [Progress](https://www.progress.com/).
+* [**Windows Community Toolkit**](https://github.com/Microsoft/WindowsCommunityToolkit) They provide an awesome collection of helper functions, custom controls and app services.
 
 ### Code:
-* [**QRCoder**](https://github.com/codebude/QRCoder) An awesome QR-Code library.
 * [**App Center Crashes/Push/Analytics**](https://github.com/Microsoft/AppCenter-SDK-DotNet) Allows me to collect crash reports ([UWPX Privacy Policy](https://github.com/UWPX/UWPX-Client/blob/master/PRIVACY_POLICY.md#crash-reporting)).
 * [**libsignal-protocol-pcl**](https://github.com/langboost/libsignal-protocol-pcl) A port of the [libsignal-protocol-java](https://github.com/signalapp/libsignal-protocol-java) library for C# UWP.
-* [**sqlite-net-pcl**](https://github.com/praeclarum/sqlite-net) The backend for storing all messages, chats and accounts.
-* [**openluopworld**](https://github.com/openluopworld) He has done an awesome and simple to use [AES-GCM](https://github.com/openluopworld/aes_gcm) implementation written in C.
 * [**NLog**](https://github.com/NLog/NLog) The library for logging used by UWPX.
+* [**openluopworld**](https://github.com/openluopworld) He has done an awesome and simple to use [AES-GCM](https://github.com/openluopworld/aes_gcm) implementation written in C.
+* [**QRCoder**](https://github.com/codebude/QRCoder) An awesome QR-Code library.
+* [**sqlite-net-pcl**](https://github.com/praeclarum/sqlite-net) The backend for storing all messages, chats and accounts.
 * [**Unicode.net**](https://github.com/neosmart/unicode.net) An super easy and powerful emoji and text-processing library for .NET.
 * [**ZXing.Net**](https://github.com/micjahn/ZXing.Net/)  A library which supports decoding and generating of barcodes (like QR Code, PDF 417, EAN, UPC, Aztec, Data Matrix, Codabar) within images.
 
