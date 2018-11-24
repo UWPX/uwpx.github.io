@@ -25,11 +25,9 @@ This project wouldn't be possible without the great work of all those people wor
 * [**Unicode.net**](https://github.com/neosmart/unicode.net) An super easy and powerful emoji and text-processing library for .NET.
 * [**ZXing.Net**](https://github.com/micjahn/ZXing.Net/)  A library which supports decoding and generating of barcodes (like QR Code, PDF 417, EAN, UPC, Aztec, Data Matrix, Codabar) within images.
 
-### People:
-* [**KingKili**](https://github.com/KingKili) For introducing me to XMPP and pushing me to make my own app. He also started the work on the [UWPX-Push-Server](https://github.com/UWPX/UWPX-Push-Server).
-
 ### Misc:
 * [**PEXELS**](https://www.pexels.com/) An awesome location for photos that can be used free for personal and commercial purposes ([License](https://www.pexels.com/photo-license/)).
+* [**KingKili**](https://github.com/KingKili) For introducing me to XMPP and pushing me to make my own app. He also started the work on the [UWPX-Push-Server](https://github.com/UWPX/UWPX-Push-Server).
 
 Also special thanks to all the Alpha (and hopefully soon Beta) testers that reported bugs, made suggestions, supported the development with [donations]({{ "/support/" | absolute_url }}) or just used and tested the app ❤️.
 
