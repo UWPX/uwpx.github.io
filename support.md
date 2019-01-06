@@ -23,7 +23,7 @@ There are two ways how you can get UWP:
 ## What kind of account do I need?
 Because XMPP is like email a federated protocol (=> there are no "__official__" XMPP accounts), everybody can host his own server providing XMPP accounts.
 
-## Where can I get a account from?
+## Where can I get an account from?
 Because XMPP is like email a federated protocol there are two ways of obtaining an XMPP (Jabber) account:
 - There are [a bunch](https://list.jabber.at/) of providers which privide __free__ XMPP (Jabber) accounts. Like with your email provider make sure your XMPP provider is [**trustworthy**](https://xmpp.net/). Some Popular choices:
     - [xmpp.jp](https://www.xmpp.jp/signup)
