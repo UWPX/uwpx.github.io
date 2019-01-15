@@ -5,8 +5,8 @@ description:        "A secure XMPP client app for all your UWP (Windows 10) devi
 locale:             en_US
 baseurl:            "" # the subpath of your site, e.g. /blog
 url:                "https://uwpx.org" # the base hostname & protocol for your site
-mail:               "support@uwpx.org"
-xmpp:               "com8@xmpp.uwpx.org"
+mail:               "support{at}uwpx.org"
+xmpp:               "com8{at}xmpp.uwpx.org"
 coppyright:         "2018 Fabian Sauter"
 enableBlog:         "0"
 
@@ -41,7 +41,7 @@ disqus_shortname:   "default"
 github:             "UWPX/UWPX-Client"
 
 # personal          
-email:              "support@uwpx.org"
+email:              "support{at}uwpx.org"
 
 # Gems
 plugins:
