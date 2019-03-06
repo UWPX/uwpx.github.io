@@ -25,11 +25,10 @@ Because XMPP is like email a federated protocol (=> there are no "__official__" 
 
 ## Where can I get an account from?
 Because XMPP is like email a federated protocol there are two ways of obtaining an XMPP (Jabber) account:
-- There are [a bunch](https://list.jabber.at/) of providers which privide __free__ XMPP (Jabber) accounts. Like with your email provider make sure your XMPP provider is [**trustworthy**](https://xmpp.net/). Some Popular choices:
-    - [xmpp.jp](https://www.xmpp.jp/signup)
-    - [jabber.ru](https://www.jabber.ru/register)
+- There are [a bunch](https://list.jabber.at/) of providers which provide __free__ XMPP (Jabber) accounts. Like with your email provider make sure your XMPP provider is [**trustworthy**](https://xmpp.net/). Some Popular choices:
     - [jabber.de](https://www.jabber.de/anmeldung/)
     - [jabber.at](https://jabber.at/account/register/)
+    - [jabber.ru](https://www.jabber.ru/register)
     - [404.city](https://404.city/#registration)
 - You also can host your own [server](https://xmpp.org/software/servers.html).
 - Some email providers also provide you with an XMPP account:
