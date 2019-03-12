@@ -39,7 +39,7 @@ Also special thanks to all the Alpha (and hopefully soon Beta) testers that repo
 | XMPP Logo | 21.11.2017 | [MIT](https://opensource.org/licenses/MIT) | Raja Sandhu, XMPP Standards Foundation ([LINK](https://commons.wikimedia.org/w/index.php?curid=20775269)) |
 | Chat | 21.11.2017 | [Creative Commons (Attribution 3.0 Unported)](https://creativecommons.org/licenses/by/3.0/) | Enes Dal ([LINK](https://www.iconfinder.com/icons/392521/bubble_chat_comment_message_talk_icon))
 
-* **Splashscreen**: Thanks to **[Senia](https://instagram.com/senia_scot?utm_source=ig_profile_share&igshid=ihzyf01gup76)** for the great work she has done designing the UWP [splashscreen image](). It consists out of the following icons/images. Their color has been changed for this.
+* **Splashscreen**: Thanks to **[inloreap](https://www.instagram.com/inloreap/)** for the great work she has done designing the UWP [splashscreen image](). It consists out of the following icons/images. Their color has been changed for this.
 
 | Name: | Accessed: | License: | Source: |
 |:-----:|:---------:|:--------:|:-------:|
