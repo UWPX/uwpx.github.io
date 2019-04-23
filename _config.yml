@@ -39,6 +39,7 @@ disqus_shortname:   "default"
 
 # Social
 github:             "UWPX/UWPX-Client"
+twitter:            uwpx_app
 
 # personal          
 email:              "support{at}uwpx.org"
