@@ -24,6 +24,7 @@ This project wouldn't be possible without the great work of all those people wor
 * [**sqlite-net-pcl**](https://github.com/praeclarum/sqlite-net) The backend for storing all messages, chats and accounts.
 * [**Unicode.net (fork)**](https://github.com/UWPX/unicode.net) A super easy to use and powerful emoji and text-processing library for .NET.
 * [**ZXing.Net**](https://github.com/micjahn/ZXing.Net/)  A library which supports decoding and generating of barcodes (like QR Code, PDF 417, EAN, UPC, Aztec, Data Matrix, Codabar) within images.
+* [**DnsClient.NET**](http://dnsclient.michaco.net/) DnsClient.NET is a simple yet very powerful and high performant open source library for the .NET Framework to do DNS lookups.
 
 ### Misc:
 * [**PEXELS**](https://www.pexels.com/) An awesome location for photos that can be used free for personal and commercial purposes ([License](https://www.pexels.com/photo-license/)).
