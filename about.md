@@ -4,7 +4,7 @@ title: UWPX - About
 description: About this Site.
 sitemap:
     priority: 0.7
-    lastmod: 18-01-2019
+    lastmod: 02-01-2020
     changefreq: monthly
 ---
 ## Special thanks to:
@@ -12,7 +12,6 @@ This project wouldn't be possible without the great work of all those people wor
 
 ### UI:
 * [**Microsoft.UI.Xaml**](https://github.com/Microsoft/microsoft-ui-xaml) Provides backward-compatible implementations of the default Microsoft UWP XAML UI platform for Windows 10.
-* [**Progress Telerik UI for UWP**](https://github.com/telerik/UI-For-UWP)  An open-source version of Telerik UI for Universal Windows Platform (UWP) by [Progress](https://www.progress.com/).
 * [**Windows Community Toolkit**](https://github.com/Microsoft/WindowsCommunityToolkit) They provide an awesome collection of helper functions, custom controls and app services.
 
 ### Code:
