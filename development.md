@@ -16,15 +16,15 @@ sitemap:
 ### Cloning
 1. Once you have successfully install Visual Studio 2019 open it and select the `Clone or check out code`.
     <br/>
-    <img src="{{ "/images/development/VS2019_1.png" | absolute_url }}" width="400rm" height="auto">
+    <img src="{{ "/images/development/VS2019_1.png" | absolute_url }}" width="800rm" height="auto">
 
 2. Now visit the [UWPX GitHub repository](https://github.com/UWPX/UWPX-Client) and click on `Clone or download`. Then click the `copy` icon to copy the git repository url.
     <br/>
-    <img src="{{ "/images/development/VS2019_2.png" | absolute_url }}" width="400rm" height="auto">
+    <img src="{{ "/images/development/VS2019_2.png" | absolute_url }}" width="800rm" height="auto">
 
 3. Switch back to Visual Studio and paste the repository url into the appropriate textbox. Once done click on `Clone` and Visual Studio will clone the repository for you.
     <br/>
-    <img src="{{ "/images/development/VS2019_3.png" | absolute_url }}" width="400rm" height="auto">
+    <img src="{{ "/images/development/VS2019_3.png" | absolute_url }}" width="800rm" height="auto">
 
 ### Starting the solution
 1. Once Visual Studio finished cloning, it will show you the `Solution Explorer`. There click on `Switch Views` to switch from the folder view to the project view.
