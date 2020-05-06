@@ -4,17 +4,17 @@ title: UWPX - About
 description: About this Site.
 sitemap:
     priority: 0.7
-    lastmod: 02-01-2020
+    lastmod: 06-05-2020
     changefreq: monthly
 ---
-## Special thanks to:
+## Special thanks to
 This project wouldn't be possible without the great work of all those people working on the libraries used by UWPX. So take a second, head over and take a look at their great work!
 
-### UI:
+### UI
 * [**Microsoft.UI.Xaml**](https://github.com/Microsoft/microsoft-ui-xaml) Provides backward-compatible implementations of the default Microsoft UWP XAML UI platform for Windows 10.
 * [**Windows Community Toolkit**](https://github.com/Microsoft/WindowsCommunityToolkit) They provide an awesome collection of helper functions, custom controls and app services.
 
-### Code:
+### Code
 * [**App Center Crashes/Push/Analytics**](https://github.com/Microsoft/AppCenter-SDK-DotNet) Allows me to collect crash reports ([UWPX Privacy Policy](https://github.com/UWPX/UWPX-Client/blob/master/PRIVACY_POLICY.md#crash-reporting)).
 * [**libsignal-protocol-pcl**](https://github.com/langboost/libsignal-protocol-pcl) A port of the [libsignal-protocol-java](https://github.com/signalapp/libsignal-protocol-java) library for C# UWP.
 * [**NLog**](https://github.com/NLog/NLog) The library for logging used by UWPX.
@@ -24,22 +24,16 @@ This project wouldn't be possible without the great work of all those people wor
 * [**Unicode.net (fork)**](https://github.com/UWPX/unicode.net) A super easy to use and powerful emoji and text-processing library for .NET.
 * [**ZXing.Net**](https://github.com/micjahn/ZXing.Net/)  A library which supports decoding and generating of barcodes (like QR Code, PDF 417, EAN, UPC, Aztec, Data Matrix, Codabar) within images.
 * [**DnsClient.NET**](http://dnsclient.michaco.net/) DnsClient.NET is a simple yet very powerful and high performant open source library for the .NET Framework to do DNS lookups.
+* [**Newtonsoft.Json**](https://www.newtonsoft.com/json) Popular high-performance JSON framework for .NET.
 
-### Misc:
+### Misc
 * [**PEXELS**](https://www.pexels.com/) An awesome location for photos that can be used free for personal and commercial purposes ([License](https://www.pexels.com/photo-license/)).
 * [**KingKili**](https://github.com/KingKili) For introducing me to XMPP and pushing me to make my own app. He also started working on the [UWPX-Push-Server](https://github.com/UWPX/UWPX-Push-Server).
 
 Also special thanks to all the Alpha (and hopefully soon Beta) testers that reported bugs, made suggestions, supported the development with [donations]({{ "/support/" | absolute_url }}) or just used and tested the app ❤️.
 
-### Image references:
-* **Logo**: The UWPX logo is a combination of two images.  The `Chat` image has been edited for this.
-
-| Name: | Accessed: | License: | Source: |
-|:-----:|:---------:|:--------:|:-------:|
-| XMPP Logo | 21.11.2017 | [MIT](https://opensource.org/licenses/MIT) | Raja Sandhu, XMPP Standards Foundation ([LINK](https://commons.wikimedia.org/w/index.php?curid=20775269)) |
-| Chat | 21.11.2017 | [Creative Commons (Attribution 3.0 Unported)](https://creativecommons.org/licenses/by/3.0/) | Enes Dal ([LINK](https://www.iconfinder.com/icons/392521/bubble_chat_comment_message_talk_icon))
-
-* **Splashscreen**: Thanks to **[inloreap](https://www.instagram.com/inloreap/)** for the great work she has done designing the UWP [splashscreen image](). It consists out of the following icons/images. Their color has been changed for this.
+### Image references
+* **Splashscreen**: Thanks to **[inloreap](https://www.instagram.com/anie.diamond/)** for the great work she has done designing the UWP [splashscreen image](). It consists out of the following icons/images. Their color has been changed for this.
 
 | Name: | Accessed: | License: | Source: |
 |:-----:|:---------:|:--------:|:-------:|
