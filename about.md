@@ -33,7 +33,7 @@ This project wouldn't be possible without the great work of all those people wor
 Also special thanks to all the Alpha (and hopefully soon Beta) testers that reported bugs, made suggestions, supported the development with [donations]({{ "/support/" | absolute_url }}) or just used and tested the app ❤️.
 
 ### Image references
-* **Splashscreen**: Thanks to **[inloreap](https://www.instagram.com/anie.diamond/)** for the great work she has done designing the UWP [splashscreen image](). It consists out of the following icons/images. Their color has been changed for this.
+* **Splashscreen**: Thanks to **[anie.diamond](https://www.instagram.com/anie.diamond/)** for the great work she has done designing the UWP [splashscreen image](). It consists out of the following icons/images. Their color has been changed for this.
 
 | Name: | Accessed: | License: | Source: |
 |:-----:|:---------:|:--------:|:-------:|
