@@ -30,7 +30,7 @@ This project wouldn't be possible without the great work of all those people wor
 * [**PEXELS**](https://www.pexels.com/) An awesome location for photos that can be used free for personal and commercial purposes ([License](https://www.pexels.com/photo-license/)).
 * [**KingKili**](https://github.com/KingKili) For introducing me to XMPP and pushing me to make my own app. He also started working on the [UWPX-Push-Server](https://github.com/UWPX/UWPX-Push-Server).
 
-Also special thanks to all the Alpha (and hopefully soon Beta) testers that reported bugs, made suggestions, supported the development with [donations]({{ "/support/" | absolute_url }}) or just used and tested the app ❤️.
+Also special thanks to all the Alpha (and hopefully soon Beta) testers that reported bugs, made suggestions, supported the development with [donations]({{ "/donate/" | absolute_url }}) or just used and tested the app ❤️.
 
 ### Image references
 * **Splashscreen**: Thanks to **[anie.diamond](https://www.instagram.com/anie.diamond/)** for the great work she has done designing the UWP [splashscreen image](). It consists out of the following icons/images. Their color has been changed for this.
