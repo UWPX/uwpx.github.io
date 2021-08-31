@@ -16,11 +16,12 @@ This project wouldn't be possible without the great work of all those people wor
 
 ### Code
 * [**App Center Crashes/Push/Analytics**](https://github.com/Microsoft/AppCenter-SDK-DotNet) Allows me to collect crash reports ([UWPX Privacy Policy](https://github.com/UWPX/UWPX-Client/blob/master/PRIVACY_POLICY.md#crash-reporting)).
-* [**libsignal-protocol-pcl**](https://github.com/langboost/libsignal-protocol-pcl) A port of the [libsignal-protocol-java](https://github.com/signalapp/libsignal-protocol-java) library for C# UWP.
+* [**Chaos.NaCl**](https://github.com/dlech/Chaos.NaCl) A cryptography library written in C#. It is based on djb's NaCl.
+* [**BouncyCastle**](https://www.bouncycastle.org/) A lightweight cryptography API for C#.
 * [**NLog**](https://github.com/NLog/NLog) The library for logging used by UWPX.
 * [**openluopworld**](https://github.com/openluopworld) He has done an awesome and simple to use [AES-GCM](https://github.com/openluopworld/aes_gcm) implementation written in C.
 * [**QRCoder**](https://github.com/codebude/QRCoder) An awesome QR-Code library.
-* [**sqlite-net-pcl**](https://github.com/praeclarum/sqlite-net) The backend for storing all messages, chats and accounts.
+* [**Microsoft.EntityFrameworkCore**](https://docs.microsoft.com/en-us/ef/core/) The backend for storing all messages, chats and accounts.
 * [**Unicode.net (fork)**](https://github.com/UWPX/unicode.net) A super easy to use and powerful emoji and text-processing library for .NET.
 * [**ZXing.Net**](https://github.com/micjahn/ZXing.Net/)  A library which supports decoding and generating of barcodes (like QR Code, PDF 417, EAN, UPC, Aztec, Data Matrix, Codabar) within images.
 * [**DnsClient.NET**](http://dnsclient.michaco.net/) DnsClient.NET is a simple yet very powerful and high performant open source library for the .NET Framework to do DNS lookups.
@@ -30,10 +31,10 @@ This project wouldn't be possible without the great work of all those people wor
 * [**PEXELS**](https://www.pexels.com/) An awesome location for photos that can be used free for personal and commercial purposes ([License](https://www.pexels.com/photo-license/)).
 * [**KingKili**](https://github.com/KingKili) For introducing me to XMPP and pushing me to make my own app. He also started working on the [UWPX-Push-Server](https://github.com/UWPX/UWPX-Push-Server).
 
-Also special thanks to all the Alpha (and hopefully soon Beta) testers that reported bugs, made suggestions, supported the development with [donations]({{ "/donate/" | absolute_url }}) or just used and tested the app ❤️.
+Also special thanks to all the Alpha and Beta testers that reported bugs, made suggestions, supported the development with [donations]({{ "/donate/" | absolute_url }}) or just used and tested the app ❤️.
 
 ### Image references
-* **Splashscreen**: Thanks to **[anie.diamond](https://www.instagram.com/anie.diamond/)** for the great work she has done designing the UWP [splashscreen image](). It consists out of the following icons/images. Their color has been changed for this.
+* **Splashscreen**: Thanks to **[Stefanie](https://instagram.com/estefanieart)** for the great work she has done designing the UWP [splashscreen image](https://github.com/UWPX/UWPX-Client/blob/v.0.34.0.0/UWPX_UI/Assets/Images/SplashScreen/splash_screen_4000.png). It consists out of the following icons/images. Their color has been changed for this.
 
 | Name: | Accessed: | License: | Source: |
 |:-----:|:---------:|:--------:|:-------:|
