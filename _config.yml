@@ -7,7 +7,7 @@ baseurl:            "" # the subpath of your site, e.g. /blog
 url:                "https://uwpx.org" # the base hostname & protocol for your site
 mail:               "support{at}uwpx.org"
 xmpp:               "com8{at}xmpp.uwpx.org"
-coppyright:         "2020 Fabian Sauter"
+coppyright:         "2021 Fabian Sauter"
 enableBlog:         "0"
 
 defaults:
