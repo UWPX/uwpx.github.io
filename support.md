@@ -13,7 +13,7 @@ There are three ways how you can get access to the app.
 ### 1. Microsoft Store:
 The simplest way is to just download it via the [Microsoft Store](https://www.microsoft.com/store/apps/9NW16X9JB5WV).
 
-[<img src="https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png" width="150">](https://www.microsoft.com/store/apps/9NW16X9JB5WV?ocid=badge)
+[<img src="https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png" width="150">](https://www.microsoft.com/de-de/p/uwpx/9n2s5v8hmvlm?ocid=badge)
 
 ### 2. Sideload:
 If you don't want to use the [Microsoft Store](https://www.microsoft.com/store/apps/9NW16X9JB5WV) for getting access to UWPX you can also sideload a pre build app.  
@@ -50,6 +50,6 @@ Because XMPP is like email a federated protocol there are two ways of obtaining 
 
 ## Which devices are supported?
 In theory **all UWP devices** that run an Windows 10 build >= `10.0.17763.0` are able to run UWPX.
-But because I'm only able to test it on a Windows Phone and a Windows PC these are the only devices the official [Microsoft Store](https://www.microsoft.com/store/apps/9nw16x9jb5wv?ocid=badge) build will run on.
+But because I'm only able to test it on a Windows Phone and a Windows PC these are the only devices the official [Microsoft Store](https://www.microsoft.com/de-de/p/uwpx/9n2s5v8hmvlm?ocid=badge) build will run on.
 
 If there are additional devices you tested UWPX on that are able to run UWPX without any problems, let me know and I will add them to the list.
