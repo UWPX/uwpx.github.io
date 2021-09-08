@@ -13,7 +13,7 @@ There are three ways how you can get access to the app.
 ### 1. Microsoft Store:
 The simplest way is to just download it via the [Microsoft Store](https://www.microsoft.com/store/apps/9NW16X9JB5WV).
 
-[<img src="https://assets.windowsphone.com/85864462-9c82-451e-9355-a3d5f874397a/English_get-it-from-MS_InvariantCulture_Default.png" width="150">](https://www.microsoft.com/de-de/p/uwpx/9n2s5v8hmvlm?ocid=badge)
+[<img src="https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png" width="150">](https://www.microsoft.com/de-de/p/uwpx/9n2s5v8hmvlm?ocid=badge)
 
 ### 2. Sideload:
 If you don't want to use the [Microsoft Store](https://www.microsoft.com/store/apps/9NW16X9JB5WV) for getting access to UWPX you can also sideload a pre build app.  
