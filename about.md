@@ -4,7 +4,7 @@ title: UWPX - About
 description: About this Site.
 sitemap:
     priority: 0.7
-    lastmod: 06-05-2020
+    lastmod: 11-29-2021
     changefreq: monthly
 ---
 ## Special thanks to
@@ -16,10 +16,10 @@ This project wouldn't be possible without the great work of all those people wor
 
 ### Code
 * [**App Center Crashes/Push/Analytics**](https://github.com/Microsoft/AppCenter-SDK-DotNet) Allows me to collect crash reports ([UWPX Privacy Policy](https://github.com/UWPX/UWPX-Client/blob/master/PRIVACY_POLICY.md#crash-reporting)).
-* [**Chaos.NaCl**](https://github.com/dlech/Chaos.NaCl) A cryptography library written in C#. It is based on djb's NaCl.
 * [**BouncyCastle**](https://www.bouncycastle.org/) A lightweight cryptography API for C#.
 * [**NLog**](https://github.com/NLog/NLog) The library for logging used by UWPX.
-* [**openluopworld**](https://github.com/openluopworld) He has done an awesome and simple to use [AES-GCM](https://github.com/openluopworld/aes_gcm) implementation written in C.
+* [**Easy-X25519**](https://github.com/HirbodBehnam/X25519-CSharp) A simple library based on Golang's Curve25519 library.
+* [**NSec.Cryptography**](https://nsec.rocks/) NSec is a modern and easy-to-use cryptographic library for .NET 5+ and .NET Core based on libsodium.
 * [**QRCoder**](https://github.com/codebude/QRCoder) An awesome QR-Code library.
 * [**Microsoft.EntityFrameworkCore**](https://docs.microsoft.com/en-us/ef/core/) The backend for storing all messages, chats and accounts.
 * [**Unicode.net (fork)**](https://github.com/UWPX/unicode.net) A super easy to use and powerful emoji and text-processing library for .NET.
